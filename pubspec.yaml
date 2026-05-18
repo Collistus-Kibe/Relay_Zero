@@ -1,0 +1,29 @@
+name: relay_zero
+description: "Relay Zero: Emergency Triage System with on-device AI and BLE mesh networking."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  ffi: ^2.1.0
+  flutter_ble_peripheral: ^2.1.0
+  flutter_reactive_ble: ^5.4.2
+  geolocator: ^14.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
